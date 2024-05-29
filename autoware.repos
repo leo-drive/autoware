@@ -28,7 +28,7 @@ repositories:
   universe/autoware.universe:
     type: git
     url: https://github.com/leo-drive/autoware.universe.git
-    version: golf
+    version: golf-labs
   universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
     type: git
     url: https://github.com/tier4/tier4_ad_api_adaptor.git
@@ -77,7 +77,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/leo-drive/autoware_launch.git
-    version: golf
+    version: golf-labs
   # sensor_component
   sensor_component/external/sensor_component_description:
     type: git
@@ -90,7 +90,7 @@ repositories:
   sensor_component/external/nebula:
     type: git
     url: https://github.com/leo-drive/nebula.git
-    version: golf
+    version: golf-labs
   sensor_component/external/transport_drivers:
     type: git
     url: https://github.com/MapIV/transport_drivers.git
@@ -99,7 +99,7 @@ repositories:
   sensor_kit/golf_sensor_kit_launch:
     type: git
     url: https://github.com/leo-drive/golf_sensor_kit_launch.git
-    version: golf
+    version: golf-labs
   sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
     type: git
     url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
@@ -112,7 +112,7 @@ repositories:
   vehicle/golf_vehicle_launch:
     type: git
     url: https://github.com/leo-drive/golf_vehicle_launch.git
-    version: golf
+    version: golf-labs
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
@@ -121,24 +121,24 @@ repositories:
   param/autoware_individual_params:
     type: git
     url: https://github.com/leo-drive/autoware_individual_params.git
-    version: golf
+    version: golf-labs
   # additional repos
   sensor_component/external/sbg_ros2_driver:
     type: git
     url: https://github.com/leo-drive/sbg_ros2_driver.git
-    version: golf
+    version: golf-labs
   sensor_component/external/arena_camera:
     type: git
     url: https://github.com/leo-drive/arena_camera.git
-    version: golf
+    version: golf-labs
   sensor_component/external/ntrip_client:
     type: git
     url: git@github.com:leo-drive/ntrip_client_ros_driver.git
-    version: main
+    version: golf-labs
   vehicle/external/leo_vehicle_interface:
     type: git
     url: https://github.com/leo-drive/leo_vehicle_interface.git
-    version: dev/plugin_model
+    version: golf-labs
 
 
 
